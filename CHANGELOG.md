@@ -6,6 +6,15 @@
 - Modified the syntax colors for keyword operators in .js files.
 - Updates to the README.me file to add basic information about the color scheme.
 - Modified styles for JS properties (Object and Variable).
-- Added separate rules for JS Doc types and tags.
+
+### Added
+- Separate rules for JS Doc types and tags.
+- New rules for HTML string punctuation token types.
+- XML and HTML string type rule.
+- Liscence.txt added to repo.
+
+### Fixed
+- Changed the HTML example image caption in the README.md file to match the image.
+
 
 ## [1.0.0] - 2018-02-05

@@ -13,7 +13,6 @@ ext install neon-vommit
 ### JS code examples:
 
 CommonJS Module:
-
 ![Example Common JS](https://github.com/ghgofort/vscode-neon-vommit-theme/raw/master/images/nv_commonjs.png)
 
 
@@ -21,11 +20,13 @@ ReactJS / ES6/7:
 ![Example React JS](https://github.com/ghgofort/vscode-neon-vommit-theme/raw/master/images/nv_es7js.png)
 
 ### CSS / SASS example:
+
 SASS:
 ![Example SASS](https://github.com/ghgofort/vscode-neon-vommit-theme/raw/master/images/nv_styles.png)
 
 ### HTML example:
-SASS:
+
+HTML:
 ![Example HTML](https://github.com/ghgofort/vscode-neon-vommit-theme/raw/master/images/nv_html.png)
 
 ## License
