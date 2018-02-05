@@ -36,11 +36,18 @@
 		},
 		{
 			"name": "String",
-			"scope": "string, string.value, string.quoted.single.scss, string.quoted.double.json, string.quoted.double.html, string.quoted.double.php,\r\n          meta.return-type, meta.type.cast.expr, meta.type.new.expr, meta.preprocessor.string, support.constant.math, support.constant.dom,\r\n          support.constant.json, markup.inline.raw, invalid.illegal.bad-ampersand.html, constant.character.escape.scss",
+			"scope": "string, string.value, string.quoted.single.scss, string.quoted.double.php,\r\n          meta.return-type, meta.type.cast.expr, meta.type.new.expr, meta.preprocessor.string, support.constant.math, support.constant.dom,\r\n          support.constant.json, markup.inline.raw, invalid.illegal.bad-ampersand.html, constant.character.escape.scss",
 			"settings": {
 				"foreground": "#CBC3FF"
 			}
-		},
+    },
+    {
+      "name": "HTML and JSON quoted string",
+      "scope": "string.quoted.double.json, string.quoted.double.html, string.quoted.double.xml",
+      "settings":{
+        "foreground": "#66D9EF"
+      }
+    },
 		{
 			"name": "REGEXP",
 			"scope": "constant.regexp, string.regexp, string.regexp.double-quoted.php",
@@ -371,14 +378,28 @@
 			"settings": {
 				"foreground": "#66D9EF"
 			}
-		},
-		{
-			"name": "HTML punctuation",
-			"scope": "punctuation.definition.tag",
+    },
+    {
+      "name": "HTML punctuation",
+      "scope": "punctuation.definition.tag",
+      "settings": {
+        "foreground": "#FF00AA"
+      }
+    },
+    {
+			"name": "HTML string punctuation",
+			"scope": "punctuation.definition.string.begin.html, punctuation.definition.string.end.html, meta.tag.inline.any.html",
 			"settings": {
-				"foreground": "#FF00AA"
+				"foreground": "#FFFF00"
 			}
-		},
+    },
+    {
+			"name": "XML Escape Characters",
+			"scope": "constant.character.entity.xml",
+			"settings": {
+				"foreground": "#FD971F"
+			}
+    },
 		{
 			"name": "PHP punctuation",
 			"scope": "punctuation.section.embedded.begin.metatag.php, punctuation.section.embedded.end.metatag.php",
