@@ -2,14 +2,16 @@
 
 ## [Unreleased]
 
-##[1.1.0] - 2018-02-05
-
-### Added
-- Added icon.png for extension icon.
+## [1.1.1] - 2018-02-05
 
 ### Changed
 - Added icon to package.json.
 - Updated Changelog file.
+
+##[1.1.0] - 2018-02-05
+### Added
+- Added icon.png for extension icon.
+
 
 ## [1.0.0] - 2018-02-05
 ### Changed
