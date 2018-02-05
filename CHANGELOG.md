@@ -1,6 +1,17 @@
 # Change Log
 
 ## [Unreleased]
+
+##[1.1.0] - 2018-02-05
+
+### Added
+- Added icon.png for extension icon.
+
+### Changed
+- Added icon to package.json.
+- Updated Changelog file.
+
+## [1.0.0] - 2018-02-05
 ### Changed
 - Initial release testing.
 - Modified the syntax colors for keyword operators in .js files.
@@ -16,6 +27,3 @@
 
 ### Fixed
 - Changed the HTML example image caption in the README.md file to match the image.
-
-
-## [1.0.0] - 2018-02-05
