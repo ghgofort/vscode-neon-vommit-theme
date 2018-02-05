@@ -12,6 +12,7 @@
 - New rules for HTML string punctuation token types.
 - XML and HTML string type rule.
 - Liscence.txt added to repo.
+- Basic rules for markdown styling.
 
 ### Fixed
 - Changed the HTML example image caption in the README.md file to match the image.

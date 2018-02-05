@@ -521,6 +521,29 @@
 			"settings": {
 				"foreground": "#b267e6"
 			}
-		}
+    },
+    {
+      "name": "Markdown Links",
+      "scope": "meta.link.inline.markdown, markup.underline.link.image.markdown",
+      "settings":{
+        "fontStyle": "underline",
+        "foreground": "#76EE00"
+      }
+    },
+    {
+      "name": "Markdown Punctuation",
+      "scope": "punctuation.definition.metadata.markdown, punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown",
+      "settings":{
+        "fontStyle": "underline",
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "name": "Markdown Code block",
+      "scope": "markup.fenced_code.block.markdown",
+      "settings": {
+        "foreground": "#FF00AA"
+      }
+    }
 	]
 }
