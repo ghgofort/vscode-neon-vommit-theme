@@ -68,47 +68,75 @@
 			"settings": {
 				"foreground": "#4499FF"
 			}
-		},
+    },
+    {
+      "name": "JSDOC Types",
+      "scope": "entity.name.type.instance.jsdoc",
+      "settings":{
+        "foreground": "#00F9AC"
+      }
+    },
+    {
+      "name": "JSDOC tags",
+      "scope": "storage.type.class.jsdoc",
+      "settings":{
+        "foreground": "#A467CC"
+      }
+    },
 		{
 			"name": "Variable",
-			"scope": "\r\n          variable, variable.css, variable.scss, variable.other.less, variable.language,\r\n          support.other.variable, entity.name.function, storage.type.cs, storage.type.generic.cs, storage.type.modifier.cs,\r\n          storage.type.variable.cs, storage.type.annotation.java, storage.type.generic.java, storage.type.java, storage.type.object.array.java,\r\n          storage.type.primitive.array.java, storage.type.primitive.java, storage.type.token.java, storage.type.groovy, storage.type.annotation.groovy,\r\n          storage.type.parameters.groovy, storage.type.generic.groovy, storage.type.object.array.groovy, storage.type.primitive.array.groovy,\r\n          storage.type.primitive.groovy\r\n        ",
+			"scope": "\r\n          variable, variable.css, variable.scss, variable.other.less, variable.language,\r\n          support.other.variable, entity.name.function, storage.type.cs, storage.type.generic.cs, storage.type.modifier.cs,\r\n          storage.type.variable.cs, storage.type.annotation.java, storage.type.generic.java, storage.type.java, storage.type.object.array.java,\r\n          storage.type.primitive.array.java, storage.type.primitive.java, storage.type.token.java, storage.type.groovy, storage.type.annotation.groovy,\r\n          storage.type.parameters.groovy, storage.type.generic.groovy, storage.type.object.array.groovy, storage.type.primitive.array.groovy,\r\n          storage.type.primitive.groovy, variable.other.object.js\r\n        ",
 			"settings": {
 				"foreground": "#66D9EF"
 			}
 		},
 		{
 			"name": "Variable Declaration",
-			"scope": "\r\n          entity.name, support.type.property-name, support.type.vendored.property-name, meta.definition.variable.name, meta.object-literal.key\r\n        ",
+			"scope": "\r\n          entity.name, support.type.property-name, support.type.vendored.property-name, meta.definition.variable.name, meta.object-literal.key,\r\n        variable.other.readwrite.js",
 			"settings": {
-				"foreground": "#33CC99"
+				"foreground": "#66D9EF"
 			}
-		},
+    },
+    {
+      "name": "JS Object Property",
+      "scope": "variable.other.object.property.js, variable.other.property.js",
+      "settings":{
+        "foreground": "#BB77FF"
+      }
+    },
 		{
 			"name": "Keyword",
 			"scope": "keyword, keyword.control, keyword.other",
 			"settings": {
-				"foreground": "#FF14CC"
+				"foreground": "#FF00AA"
 			}
-		},
+    },
+    {
+      "name": "JS Operator Keywords",
+      "scope": "keyword.operator.logical.js, keyword.operator.relational.js, keyword.operator.comparison.js, keyword.operator.expression",
+      "settings":{
+        "foreground": "#FFFF00"
+      }
+    },
 		{
 			"name": "Keyword operator",
-			"scope": "keyword.operator, keyword.operator.new, keyword.operator.expression",
+			"scope": "keyword.operator.new",
 			"settings": {
-				"foreground": "#FFFF00"
+				"foreground": "#FF00AA"
 			}
 		},
 		{
 			"name": "Storage",
 			"scope": "storage, storage.modifier, storage.type.function",
 			"settings": {
-				"foreground": "#FF14CC"
+				"foreground": "#FF00AA"
 			}
 		},
 		{
 			"name": "Storage type",
 			"scope": "storage.type",
 			"settings": {
-				"foreground": "#FF878D"
+				"foreground": "#FF6F77"
 			}
 		},
 		{
@@ -136,7 +164,7 @@
 			"name": "Types",
 			"scope": "entity.name.type",
 			"settings": {
-				"foreground": "#CC88FF"
+				"foreground": "#00F9AC"
 			}
 		},
 		{
@@ -150,7 +178,7 @@
 			"name": "Tag name",
 			"scope": "entity.name.tag",
 			"settings": {
-				"foreground": "#FF14CC"
+				"foreground": "#FF00AA"
 			}
 		},
 		{
@@ -171,14 +199,14 @@
 			"name": "Library variable",
 			"scope": "variable.language",
 			"settings": {
-				"foreground": "#FF14CC"
+				"foreground": "#FF00AA"
 			}
 		},
 		{
 			"name": "Invalid",
 			"scope": "invalid",
 			"settings": {
-				"background": "#FF14CC",
+				"background": "#FF00AA",
 				"foreground": "#F0F0F0"
 			}
 		},
@@ -201,7 +229,7 @@
 			"name": "Markup deleted",
 			"scope": "markup.deleted",
 			"settings": {
-				"foreground": "#FF14CC"
+				"foreground": "#FF00AA"
 			}
 		},
 		{
@@ -264,7 +292,7 @@
 			"name": "CSS ID",
 			"scope": "entity.other.attribute-name.id.css",
 			"settings": {
-				"foreground": "#FF14CC"
+				"foreground": "#FF00AA"
 			}
 		},
 		{
@@ -292,7 +320,7 @@
 			"name": "CSS media operator",
 			"scope": "keyword.operator.logical.scss",
 			"settings": {
-				"foreground": "#FF14CC"
+				"foreground": "#FF00AA"
 			}
 		},
 		{
@@ -320,7 +348,7 @@
 			"name": "CSS atribute name",
 			"scope": "entity.name.tag.css",
 			"settings": {
-				"foreground": "#FF14CC"
+				"foreground": "#FF00AA"
 			}
 		},
 		{
@@ -348,7 +376,7 @@
 			"name": "HTML punctuation",
 			"scope": "punctuation.definition.tag",
 			"settings": {
-				"foreground": "#FF14CC"
+				"foreground": "#FF00AA"
 			}
 		},
 		{
@@ -369,7 +397,7 @@
 			"name": "PHP logical operator",
 			"scope": "keyword.operator.logical.php",
 			"settings": {
-				"foreground": "#FF14CC"
+				"foreground": "#FF00AA"
 			}
 		},
 		{
@@ -397,14 +425,14 @@
 			"name": "PHP constructs",
 			"scope": "support.function.construct.output.php",
 			"settings": {
-				"foreground": "#FF14CC"
+				"foreground": "#FF00AA"
 			}
 		},
 		{
 			"name": "PHP array",
 			"scope": "support.function.construct.php",
 			"settings": {
-				"foreground": "#FF14CC"
+				"foreground": "#FF00AA"
 			}
 		},
 		{
@@ -412,13 +440,6 @@
 			"scope": "punctuation.separator.key-value.js, meta.function.js, punctuation.js",
 			"settings": {
 				"foreground": "#F0F0F0"
-			}
-		},
-		{
-			"name": "JS keyword operator",
-			"scope": "keyword.operator.expression",
-			"settings": {
-				"foreground": "#FF14CC"
 			}
 		},
 		{
@@ -432,7 +453,7 @@
 			"name": "JS keyword operator new",
 			"scope": "keyword.operator.new.js",
 			"settings": {
-				"foreground": "#FF14CC"
+				"foreground": "#FF00AA"
 			}
 		},
 		{
@@ -453,7 +474,7 @@
 			"name": "TypeScript operator new",
 			"scope": "keyword.operator.new.ts",
 			"settings": {
-				"foreground": "#FF14CC"
+				"foreground": "#FF00AA"
 			}
 		},
 		{

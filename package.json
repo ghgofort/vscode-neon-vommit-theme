@@ -1,5 +1,6 @@
 {
     "name": "neon-vommit",
+    "author": "Galen Goforth <galengoforth@gmail.com>",
     "displayName": "Neon Vommit Color Theme",
     "description": "Bright neon colors on a dark background for late nights, or dark spaces.",
     "version": "0.0.1",
@@ -18,5 +19,9 @@
                 "path": "./themes/NeonVommitTheme.json"
             }
         ]
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ghgofort/vscode-neon-vommit-theme"
     }
 }
