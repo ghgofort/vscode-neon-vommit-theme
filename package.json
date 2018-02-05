@@ -1,0 +1,22 @@
+{
+    "name": "neon-vommit",
+    "displayName": "Neon Vommit Color Theme",
+    "description": "Bright neon colors on a dark background for late nights, or dark spaces.",
+    "version": "0.0.1",
+    "publisher": "ghgofort",
+    "engines": {
+        "vscode": "^1.19.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Neon Vommit",
+                "uiTheme": "vs-dark",
+                "path": "./themes/NeonVommitTheme.json"
+            }
+        ]
+    }
+}
