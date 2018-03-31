@@ -2,8 +2,11 @@
 
 ## [Unreleased]
 
-## [1.1.1] - 2018-02-05
 
+## [1.1.2] - 2018-02-05
+- Fixed changelog for accuracy.
+
+## [1.1.1] - 2018-02-05
 ### Changed
 - Added icon to package.json.
 - Updated Changelog file.
