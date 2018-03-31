@@ -2,6 +2,15 @@
 
 ## [Unreleased]
 
+##[1.2.1] - 2018-03-30
+### Changed
+- Updated Change Log.
+
+##[1.2.0] - 2018-03-30
+### Added
+- Better coloring for TypeScript files to align closer to the JS styles.
+- Additional token styling for markdown files including list and header declarations.
+- Additional token styling for JSON files.
 
 ## [1.1.2] - 2018-02-05
 - Fixed changelog for accuracy.
