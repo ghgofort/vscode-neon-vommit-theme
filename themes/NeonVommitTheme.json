@@ -90,7 +90,6 @@
         "constant.numeric",
         "meta.preprocessor.numeric",
         "keyword.other.unit",
-        "entity.name.section.markdown",
         "constant.sha.git-rebase"
       ],
       "settings": {
@@ -158,7 +157,8 @@
         "storage.type.primitive.groovy",
         "variable.other.object.js",
         "variable.object.property.ts",
-        "support.type.property-name.json"
+        "support.type.property-name.json",
+        "source.python"
       ],
       "settings": {
         "foreground": "#66D9EF"
@@ -186,7 +186,10 @@
         "variable.other.object.property.js",
         "variable.other.object.property.ts",
         "variable.other.property.js",
-        "variable.other.property.ts"
+        "variable.other.property.ts",
+        "variable.other.constant.property.js.jsx",
+        "support.variable.property.dom.js.jsx",
+        "variable.other.readwrite.alias.js.jsx"
       ],
       "settings": {
         "foreground": "#BB77FF"
@@ -244,7 +247,8 @@
     {
       "name": "Storage type",
       "scope": [
-        "storage.type"
+        "storage.type",
+        "storage.modifier.declaration.python"
       ],
       "settings": {
         "foreground": "#FF6F77"
@@ -346,55 +350,6 @@
         "foreground": "#787878"
       }
 		},
-    {
-      "name": "Markup deleted",
-      "scope": "markup.deleted",
-      "settings": {
-        "foreground": "#FF00AA"
-      }
-		},
-    {
-      "name": "Markup inserted",
-      "scope": "markup.inserted",
-      "settings": {
-        "foreground": "#76EE00"
-      }
-		},
-    {
-      "name": "Markup changed",
-      "scope": "markup.changed",
-      "settings": {
-        "foreground": "#EEEE22"
-      }
-		},
-    {
-      "name": "Markup underline",
-      "scope": "markup.underline",
-      "settings": {
-        "fontStyle": "underline"
-      }
-		},
-    {
-      "name": "Markup bold",
-      "scope": "markup.bold",
-      "settings": {
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "name": "Markup List Bullet",
-      "scope": "beginning.punctuation.definition.list.markdown",
-      "settings": {
-        "foreground": "#BB77FF"
-      }
-    },
-    {
-      "name": "Markup List Numbering",
-      "scope": "punctuation.definition.heading.markdown",
-      "settings": {
-        "foreground": "#FF00AA"
-      }
-    },
     {
       "name": "Meta selector",
       "scope": "meta.selector",
@@ -584,7 +539,10 @@
 		},
     {
       "name": "PHP function name",
-      "scope": "entity.name.function.php",
+      "scope": [
+        "entity.name.function.php",
+        "meta.function-call.generic.python"
+      ],
       "settings": {
         "foreground": "#76EE00"
       }
@@ -617,7 +575,9 @@
         "meta.function.js",
         "punctuation.js",
         "meta.brace.square.ts",
-        "punctuation.definition.block.ts"
+        "punctuation.definition.block.ts",
+        "punctuation.definition.arguments",
+        "punctuation.separator.arguments.python"
       ],
       "settings": {
         "foreground": "#F0F0F0"
@@ -741,10 +701,82 @@
       }
     },
     {
+      "name": "Markup Tesxt Styles",
+      "scope": [
+        "markup.bold.markdown",
+        "markup.italic.markdown"
+      ],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#44B9EF"
+      }
+    },
+    {
+      "name": "Markup deleted",
+      "scope": "markup.deleted",
+      "settings": {
+        "foreground": "#FF00AA"
+      }
+		},
+    {
+      "name": "Markup inserted",
+      "scope": "markup.inserted",
+      "settings": {
+        "foreground": "#76EE00"
+      }
+		},
+    {
+      "name": "Markup changed",
+      "scope": "markup.changed",
+      "settings": {
+        "foreground": "#EEEE22"
+      }
+		},
+    {
+      "name": "Markup underline",
+      "scope": "markup.underline",
+      "settings": {
+        "fontStyle": "underline"
+      }
+		},
+    {
+      "name": "Markup bold",
+      "scope": "markup.bold",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markdown List Bullet",
+      "scope": "beginning.punctuation.definition.list.markdown",
+      "settings": {
+        "foreground": "#BB77FF"
+      }
+    },
+    {
+      "name": "Markdown Text Style Marker",
+      "scope": [
+        "punctuation.definition.bold.markdown",
+        "punctuation.definition.italic.markdown",
+        "punctuation.definition.link.markdown"
+      ],
+      "settings": {
+        "foreground": "#BB77FF"
+      }
+    },
+    {
+      "name": "Markdown List Numbering",
+      "scope": "punctuation.definition.heading.markdown",
+      "settings": {
+        "foreground": "#FF00AA"
+      }
+    },
+    {
       "name": "Markdown Links",
       "scope": [
         "meta.link.inline.markdown",
-        "markup.underline.link.image.markdown"
+        "markup.underline.link.image.markdown",
+        "markup.underline.link.markdown"
       ],
       "settings": {
         "fontStyle": "underline",
@@ -759,8 +791,8 @@
         "punctuation.definition.string.end.markdown"
       ],
       "settings": {
-        "fontStyle": "underline",
-        "foreground": "#FFFF00"
+        "foreground": "#FFFF00",
+        "fontStyle": "bold"
       }
     },
     {
@@ -768,6 +800,25 @@
       "scope": "markup.fenced_code.block.markdown",
       "settings": {
         "foreground": "#FF00AA"
+      }
+    },
+    {
+      "name": "Markdown Link String",
+      "scope": [
+        "string.other.link.title.markdown"
+      ],
+      "settings":{
+        "fontStyle": "none"
+      }
+    },
+    {
+      "name": "Markdown Section Name",
+      "scope": [
+        "entity.name.section.markdown"
+      ],
+      "settings": {
+        "foreground": "#33CC99",
+        "fontStyle": "bold"
       }
     }
 	]
