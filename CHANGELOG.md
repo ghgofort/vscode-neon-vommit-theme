@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+## [1.2.2]
+- Added styles for Python token types.
+- Minor updates to Markdown styles.
+- Updated Changelog with version bump.
+
 ##[1.2.1] - 2018-03-30
 ### Changed
 - Updated Change Log.
